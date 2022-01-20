@@ -3,6 +3,10 @@
   --text-color: #727272;
   --heading-color: black;
   --text-secondary-color: white;
+  --background-site-color: #EEEFF1;
+
+  --text-font-family: 'Roboto', sans-serif;
+  --logo-font-family: 'Revalia';
   font-size: 16px;
 }
 
@@ -35,4 +39,8 @@
   background-color: var(--secondary-color);
   color: var(--text-secondary-color);
   padding: 25px 41px;
+}
+
+.link {
+  
 }
