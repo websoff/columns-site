@@ -1,0 +1,57 @@
+h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.line-skill p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #727272;
+}
+.line{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 4px;
+}
+.blue{
+    background: #34547A;
+    width: 250px;
+}
+.gray{
+    background: #C4C4C4;
+    width: 100px;
+}
+.this-line{
+    display: flex;
+}
+.line-skill{
+    display: flex;
+    flex-direction: column;
+}
+.photo-man{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;  
+}
+picture{
+    width: 80%;
+}
+@media screen and (max-width: 992px){
+    .photo-man{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;  
+    }
+    h2{
+        margin-top: 50px;
+    } 
+}

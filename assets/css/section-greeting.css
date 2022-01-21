@@ -1,0 +1,33 @@
+.section-greeting {
+  padding: 30px 0 60px;
+  background-color: var(--background-site-color);
+}
+
+.greeting-img-wrapper {
+  width: 60%;
+}
+
+.greeting-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.greeting-text-margins {
+  margin: 30px 0;
+}
+
+@media screen and (min-width: 576px) {
+  .greeting-container {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section-greeting {
+    padding-bottom: 150px;
+  }
+  .greeting-container {
+    text-align: left;
+    margin-top: 0;
+  }
+}
